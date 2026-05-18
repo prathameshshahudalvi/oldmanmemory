@@ -1,0 +1,28 @@
+# requirements.txt
+# Install everything with: pip install -r requirements.txt
+
+# LangChain — core framework
+langchain
+
+# LangGraph — builds the flow between nodes
+langgraph
+
+# Groq — fast and free LLM (replaces OpenAI/Anthropic)
+# Get your free key at: console.groq.com
+langchain-groq
+groq
+
+# HuggingFace — free embeddings (replaces OpenAI embeddings)
+# No API key needed, runs locally
+langchain-huggingface
+sentence-transformers
+
+# Pinecone — stores and searches memories
+langchain-pinecone
+pinecone
+
+# Loads API keys from your .env file
+python-dotenv
+
+# Streamlit — the frontend UI
+streamlit
